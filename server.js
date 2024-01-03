@@ -1,6 +1,5 @@
 import { WebSocket } from 'ws';
 import { generateInitialiserPacket, ping } from './protocol.js';
-import { HttpsProxyAgent } from 'https-proxy-agent';
 
 let count = 0;
 
